@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-heading {
+  font-size: 14px;
+  font-weight: 500;
+  color: #171f46;
+  margin-right: 80px;
+}
+.icon-duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.duration {
+  font-size: 10px;
+  color: #171f46;
+  font-weight: 200;
+}
+.description {
+  font-size: 12px;
+  color: #1e293b;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item-list {
+  font-size: 10px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  height: 14px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  border: none;
+  background-color: aqua;
+  text-align: center;
+}

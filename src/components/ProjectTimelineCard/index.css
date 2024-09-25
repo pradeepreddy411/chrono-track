@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.image {
+  height: 120px;
+  width: 300px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-heading {
+  font-size: 14px;
+  font-weight: 500;
+  color: #171f46;
+  margin-right: 80px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon {
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+}
+.icon-heading {
+  font-size: 10px;
+  color: #171f46;
+  font-weight: 200;
+}
+.description {
+  font-size: 12px;
+  color: #1e293b;
+}
+.project-line {
+  font-size: 12px;
+  font-weight: 100;
+  color: #0967d2;
+  text-align: start;
+}
